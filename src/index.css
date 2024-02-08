@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.opshi_cart {
+  width: 1300px;
+  height: 600px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  border: 1px solid rgb(95, 88, 88);
+}
+.katta_rasm {
+  width: 100%;
+  height: 470px;
+  background: repeat;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 2px rgb(230, 205, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.katta_rasm img {
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+  color: black;
+  background-color: rgb(217, 217, 228);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+.kischik_rasm {
+  display: flex;
+  gap: 1rem;
+  margin-left: 20px;
+  display: -webkit-flex;
+  overflow: auto;
+  margin: 0 8px;
+  border-radius: 12px;
+}
+.btn_img {
+  width: 300px;
+  height: 130px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 1rem;
+}
